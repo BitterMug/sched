@@ -1,6 +1,6 @@
 #!/bin/bash
 
-cd /home/user/Desktop/rt-tests
+cd ../rt-tests
 nice=$1
 
 nice -n0 ./hackbench -g$(nproc) -l100000 &
